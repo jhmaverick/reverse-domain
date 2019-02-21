@@ -1,0 +1,35 @@
+{
+  "name": "reverse-domain",
+  "description": "Get IPs from a domain's list.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./index.js",
+  "bin": {
+    "reverse-domain": "./index.js"
+  },
+  "keywords": [
+    "reverse",
+    "domain",
+    "ip"
+  ],
+  "tags": [
+    "reverse",
+    "domain",
+    "ip"
+  ],
+  "homepage": "https://github.com/jhmaverick/reverse-domain#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhmaverick/reverse-domain.git"
+  },
+  "author": {
+    "name": "João Henrique",
+    "email": "joao_henriquee@outlook.com",
+    "homepage": "https://github.com/jhmaverick/"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "fs-extra": "^7.0.1",
+    "yargs": "^13.2.0"
+  }
+}
